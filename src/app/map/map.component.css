@@ -1,0 +1,39 @@
+main {
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 10%;
+  max-width: 100%;
+}
+
+.map-details {
+  text-align: center;
+  width: 30%; 
+  margin: 30 auto;
+  margin-top: 20px;
+}
+
+.details-box {
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.details-box h3 {
+  margin-top: 0; 
+}
+
+.details-box p {
+  margin: 10px 0;
+}
+
+
+svg path:hover {
+  fill: rgb(79, 181, 158);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+}
